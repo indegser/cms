@@ -16,5 +16,11 @@ export const journal: SchemaTypeDefinition = {
       type: 'reference',
       to: [{type: 'book'}],
     },
+    {
+      title: '내용',
+      name: 'content',
+      type: 'array',
+      of: [{type: 'block'}],
+    },
   ],
 }
