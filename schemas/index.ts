@@ -1,3 +1,4 @@
-import { book } from "./book";
+import {book} from './book'
+import {journal} from './journal'
 
-export const schemaTypes = [book]
+export const schemaTypes = [book, journal]
