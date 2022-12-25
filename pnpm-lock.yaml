@@ -5,6 +5,7 @@ specifiers:
   '@sanity/eslint-config-studio': ^2.0.1
   '@sanity/vision': ^3.0.0
   eslint: ^8.6.0
+  eslint-config-prettier: ^8.5.0
   prettier: ^2.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -25,6 +26,7 @@ devDependencies:
   '@sanity/cli': 3.1.2
   '@sanity/eslint-config-studio': 2.0.1_lzzuuodtsqwxnvqeq4g4likcqa
   eslint: 8.30.0
+  eslint-config-prettier: 8.5.0_eslint@8.30.0
   prettier: 2.8.1
   typescript: 4.9.4
 
@@ -3650,6 +3652,15 @@ packages:
     optionalDependencies:
       source-map: 0.6.1
     dev: false
+
+  /eslint-config-prettier/8.5.0_eslint@8.30.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.30.0
+    dev: true
 
   /eslint-plugin-jsx-a11y/6.6.1_eslint@8.30.0:
     resolution: {integrity: sha512-sXgFVNHiWffBq23uiS/JaP6eVR622DqwB4yTzKvGZGcPq6/yZ3WmOZfuBks/vHWo9GaFOqC2ZK4i6+C35knx7Q==}
