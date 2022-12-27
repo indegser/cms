@@ -1,7 +1,7 @@
 export default {
   name: 'embed',
   type: 'object',
-  title: 'Embed',
+  title: '임베드',
   fields: [
     {
       name: 'url',
@@ -11,7 +11,7 @@ export default {
   ],
   preview: {
     select: {
-      url: 'url',
+      title: 'url',
     },
   },
 }
