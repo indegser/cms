@@ -1,4 +1,4 @@
-import {SchemaTypeDefinition} from 'sanity'
+import {defineField, SchemaTypeDefinition} from 'sanity'
 
 export const journal: SchemaTypeDefinition = {
   title: '저널',
@@ -16,11 +16,16 @@ export const journal: SchemaTypeDefinition = {
       type: 'reference',
       to: [{type: 'book'}],
     },
+    defineField({
+      title: 'URL',
+      name: 'url',
+      type: 'url',
+    }),
     {
       title: '내용',
       name: 'content',
       type: 'array',
-      of: [{type: 'block'}, {type: 'image'}, {type: 'embed'}],
+      of: [{type: 'block'}],
     },
   ],
 }
