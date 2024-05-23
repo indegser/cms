@@ -1,0 +1,12 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.scrollBeyondLastLine": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    }
+  }
+  

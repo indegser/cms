@@ -1,5 +1,4 @@
 import { sanityClient } from "@/libs/sanity";
-import Image from "next/image";
 
 export default async function Home() {
   const posts = await sanityClient.fetch(`*[_type == "post"]`)
